@@ -6,9 +6,9 @@ import 'package:flutter/cupertino.dart';
 
 class BtcClient {
   // Bitcoin core credentials
-  String rpcUser = "admin1";
-  String rpcPassword = "123";
-  int rpcPort = 18443;
+  String rpcUser = "polaruser";
+  String rpcPassword = "polarpass";
+  int rpcPort = 18446;
 
   Dio? _dioClient;
   late Map<String, String> _headers;

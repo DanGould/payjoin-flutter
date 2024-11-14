@@ -8,7 +8,7 @@ To use the `payjoin_flutter` package in your project, add it as a dependency in 
 
 ```dart
 dependencies:
-payjoin_flutter: 0.20.0
+payjoin_flutter: 0.21.0
 ```
 ### Requirements
 
@@ -28,7 +28,7 @@ on how to mine blocks.
 
 
 ## Running the integration tests
-Once we have set up the Bitcoin core properly in the `Regtest` network, 
+Once we have set up the Bitcoin core properly in the `Regtest` network
 
 ```shell
 git clone https://github.com/LtbLightning/payjoin-flutter.git
