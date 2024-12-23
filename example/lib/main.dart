@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:bdk_flutter/bdk_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:payjoin_flutter/common.dart' as common;
+import 'package:payjoin_flutter/payjoin_flutter.dart' as common;
 import 'package:payjoin_flutter/uri.dart' as pay_join_uri;
 import 'package:payjoin_flutter_example/bdk_client.dart';
 import 'package:payjoin_flutter_example/payjoin_library.dart';

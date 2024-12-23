@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:typed_data';
 
 import 'package:flutter/cupertino.dart';
-import 'package:payjoin_flutter/common.dart' as common;
+import 'package:payjoin_flutter/payjoin_flutter.dart' as common;
 import 'package:payjoin_flutter/receive/v1.dart' as v1;
 import 'package:payjoin_flutter/send.dart' as send;
 import 'package:payjoin_flutter/uri.dart' as pj_uri;
