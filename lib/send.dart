@@ -2,7 +2,7 @@ import 'package:payjoin_flutter/src/config.dart';
 import 'package:payjoin_flutter/src/exceptions.dart';
 import 'package:payjoin_flutter/uri.dart';
 
-import 'common.dart' as common;
+import 'payjoin_flutter.dart' as common;
 import 'src/generated/api/send.dart';
 import 'src/generated/api/uri.dart';
 import 'src/generated/utils/error.dart' as error;

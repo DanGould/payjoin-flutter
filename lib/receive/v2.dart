@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter_rust_bridge/flutter_rust_bridge_for_generated.dart';
 
-import '../common.dart';
+import '../payjoin_flutter.dart';
 import '../src/exceptions.dart';
 import '../src/generated/api/receive.dart';
 import '../src/generated/utils/error.dart' as error;

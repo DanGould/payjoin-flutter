@@ -4,7 +4,7 @@ import 'package:bdk_flutter/bdk_flutter.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:integration_test/integration_test.dart';
-import 'package:payjoin_flutter/common.dart' as common;
+import 'package:payjoin_flutter/payjoin_flutter.dart' as common;
 import 'package:payjoin_flutter/uri.dart' as pay_join_uri;
 import 'package:payjoin_flutter_example/btc_client.dart';
 import 'package:payjoin_flutter_example/payjoin_library.dart';
