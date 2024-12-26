@@ -60,6 +60,7 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+    namespace 'com.bdk.f.bdk_flutter_app'
 }
 
 flutter {
