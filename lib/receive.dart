@@ -123,16 +123,12 @@ class UncheckedProposal {
     }
   }
 
-  ///Call this method if the only way to initiate a Payjoin with this receiver requires manual intervention, as in most consumer wallets.
+  /// Call this method if the only way to initiate a Payjoin with this receiver requires manual intervention, as in most consumer wallets.
   /// So-called “non-interactive” receivers, like payment processors,
   /// that allow arbitrary requests are otherwise vulnerable to probing attacks. Those receivers call gettransactiontocheckbroadcast() and attesttestedandscheduledbroadcast() after making those checks downstream
-  Future<MaybeInputsOwned> assumeInteractiveReceiver({hint}) async {
-    try {
-      final res = await _ffiUncheckedProposal.assumeInteractiveReceiver();
-      return MaybeInputsOwned._(ffiMaybeInputsOwned: res);
-    } on error.PayjoinError catch (e) {
-      throw mapPayjoinError(e);
-    }
+  Future<MaybeInputsOwned> assumeInteractiveReceiver() async {
+    final res = await _ffiUncheckedProposal.assumeInteractiveReceiver();
+    return MaybeInputsOwned._(ffiMaybeInputsOwned: res);
   }
 }
 
